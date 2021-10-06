@@ -1,11 +1,10 @@
 package com.example.kalkulator
 
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,10 +12,62 @@ class MainActivity : AppCompatActivity() {
         var wynik = 0;
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(findViewById(R.id.toolbar))
 
-        findViewById<Button>(R.id.button).setOnClickListener {
-            findViewById<Button>(R.id.button).text = "0";
+        findViewById<Button>(R.id.numer0).setOnClickListener {
+            findViewById<Button>(R.id.numer0).text = "0";
+        }
+
+        findViewById<Button>(R.id.numer1).setOnClickListener {
+            findViewById<Button>(R.id.numer1).text = "1";
+        }
+
+        findViewById<Button>(R.id.numer2).setOnClickListener {
+            findViewById<Button>(R.id.numer2).text = "2";
+        }
+
+        findViewById<Button>(R.id.numer3).setOnClickListener {
+            findViewById<Button>(R.id.numer3).text = "3";
+        }
+
+        findViewById<Button>(R.id.numer4).setOnClickListener {
+            findViewById<Button>(R.id.numer4).text = "4";
+        }
+
+        findViewById<Button>(R.id.numer5).setOnClickListener {
+            findViewById<Button>(R.id.numer5).text = "5";
+        }
+
+        findViewById<Button>(R.id.numer6).setOnClickListener {
+            findViewById<Button>(R.id.numer6).text = "6";
+        }
+
+        findViewById<Button>(R.id.numer7).setOnClickListener {
+            findViewById<Button>(R.id.numer7).text = "7";
+        }
+
+        findViewById<Button>(R.id.numer8).setOnClickListener {
+            findViewById<Button>(R.id.numer8).text = "8";
+        }
+
+        findViewById<Button>(R.id.numer7).setOnClickListener {
+            findViewById<Button>(R.id.numer9).text = "9";
+        }
+
+
+        findViewById<Button>(R.id.suma).setOnClickListener {
+            findViewById<Button>(R.id.suma)
+        }
+
+        findViewById<Button>(R.id.roznica).setOnClickListener {
+            findViewById<Button>(R.id.roznica)
+        }
+
+        findViewById<Button>(R.id.mnozenie).setOnClickListener {
+            findViewById<Button>(R.id.mnozenie)
+        }
+
+        findViewById<Button>(R.id.dzielenie).setOnClickListener {
+            findViewById<Button>(R.id.dzielenie)
         }
     }
 
